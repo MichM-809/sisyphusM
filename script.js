@@ -7,8 +7,7 @@ let restartBut;
 let stopBut;
 let roller;
 let bolt1, bolt2, bolt3;
-let rollerImg;
-let bolt1Img, bolt2Img, bolt3Img;
+let bolt1Img;
 
 
 /* PRELOAD LOADS FILES */
