@@ -1,26 +1,14 @@
-# Game Jam Starter Code
-This is a place for you to start building your Game Jam Project!
+# Game Jam Game: One Must Imagine Sisyphus Happy
 
-### Project Requirements
-Your project should:
-- Include a clear description of the goal and rules. 
-- Provide evidence for how it responds to the game jam prompt.
-- Incorporate one UX design principle.
-- Be an MVP version of the final vision for the game. 
-- Properly cite any assets or a game you modded.
-- Utilize code comments to make your code readable for others who might want to mod it. 
-- Be playtested to gather feedback.
-- Be iterated on based on the feedback you receive.
+This is a game inspired by the greek myth of Sisyphus where a king was sentenced to roll a boulder up a hill for all eternity only for it to roll back down when it reaches the top. The name of the game came from a quote of the book by the French philosopher Albert Camus called "The Myth of Sisyphus"(it also use to be a meme).
 
+I made this game in 4 days for a Game Jam for the Girls Who Code(GWC) SIP. The theme of the Game Jam was "What Hope Means to You" and the Sisyphus myth reminded me of human resilience and the hoping and working for better things.
 
-### Extensions
-You can extend your project further by:
-- Add a new feature
-- Refactor your code
-- Port to Github pages
+I made this project by modding one of the other games I created during the GWC SIP. I made a collection style game during the program where you have to collect as many falling objects as you can. For this project, I modified that game so that instead of collecting the falling objects, you have to avoid the falling objects. Then, I added a home screen, rule screen and win and lose screens. I also added a restart button so that the game can start without having to refresh.
+
+There were a lot of bugs when making this game, for instance, I was having a hard time making sure that when the buttons are clicked, they go to the right screen and I also had problems with the lightning bolts not falling, and buttons not working sometimes. I learned a lot about how to make functions, how screens work, and how sprites can interact with each other.
 
 ###  Attributions
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
 - Lightning Bolt Image: https://www.vecteezy.com/vector-art/24451829-cartoon-illustration-of-electric-lightning-bolt-thunderbolt-strike-symbol-lightning-flash-symbol
 
 
@@ -30,19 +18,18 @@ You can extend your project further by:
 
 ### ← script.js
 
-This is where we will add the JavaScript code for our game.
+This is where the JavaScript code is
 
 ### ← assets
 
-Drag in assets, like images, to add them to your project. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg` or `assets/example.png`.
-
+Drag in assets, like images, to add them to your project.
 ### ← index.html
 
-The HTML file contains HTML code that sets up a webpage for our game. We also add libraries in this file using HTML tags.
+The HTML file contains HTML code that sets up a webpage for the game. We also add libraries in this file using HTML tags.
 
 ### ← README.md
 
-That's this file. This is the place to tell people more about what your game does and how you built it. 
+That's this file. 
 
 ### ← style.css
 
