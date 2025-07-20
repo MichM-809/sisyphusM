@@ -13,6 +13,7 @@ let bolt1Img, bolt2Img, bolt3Img;
 
 /* PRELOAD LOADS FILES */
 function preload(){
+bolt1Img= loadImage('assets/bolt1.png');
 }
 
 
@@ -60,21 +61,25 @@ function setup() {
 
   //game objects
   roller= new Sprite(-150, -150, 'k');
+  roller.d= 60;
   roller.color= 'grey'
 
-  bolt1= new Sprite(-100, -100);
+  bolt1= new Sprite(bolt1Img,-100, -100);
   bolt1.d=30;
   bolt1.color= 'yellow';
  
 
-  bolt2= new Sprite(70, -70);
+  bolt2= new Sprite(bolt1Img, 70, -70);
   bolt2.d=30;
   bolt2.color= 'yellow';
   
 
-  bolt3= new Sprite(-130, -130);
+  bolt3= new Sprite(bolt1Img, -130, -130);
   bolt3.d=30;
   bolt3.color= 'yellow';
+
+  //resize
+  bolt1Img.resize(30,0);
 }
 
 /* DRAW LOOP REPEATS */
@@ -105,7 +110,6 @@ function draw() {
     roller.pos= {x:200, y: 380};
 
     screen= 2;
-
   }
 //game screen
   if (screen== 2) {
