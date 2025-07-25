@@ -60,7 +60,7 @@ function setup() {
 
   //game objects
   roller= new Sprite(-150, -150, 'k');
-  roller.d= 60;
+  roller.d= 55;
   roller.color= 'grey'
 
   bolt1= new Sprite(bolt1Img,-100, -100);
